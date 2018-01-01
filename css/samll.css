@@ -1,0 +1,77 @@
+body{
+	width: 100%;
+	height: 100%;
+	background:url(../img/small.jpg) no-repeat;
+	background-size: 100% 100%;	
+}
+#sort{
+	width: 100%;
+	height: 100%;
+}
+#sort .title{
+	width: 100%;
+	margin: 0 auto;
+	line-height: 163px;
+	font-size: 42px;
+	text-align: center;
+	color: white;
+}
+.sort{
+	width: 1000px;
+	height: 68px;
+	margin: 0 auto;
+	line-height: 68px;
+	margin-bottom: 20px;
+}
+.name{
+	font-size: 28px;
+	color: white;
+	line-height: 68px;
+}
+.name span{
+	display: inline-block;
+}
+.name p span:nth-child(2){
+   width: 130px;
+   text-align: center;
+   display: inline-block;
+}
+.head{
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 20px;
+}
+.head img{
+	width: 100%;
+}
+.mIn{
+	width: 640px;
+	height: 14px;
+	margin-top: 30px;
+	background-color: #100556;
+	border-radius: 7px;
+	overflow: hidden;
+}
+.mOn{
+	width: 0px;
+	background-color: #fff100;
+	border-radius: 7px;
+	height: 14px;
+	
+}
+.money{
+	line-height: 68px;
+	color: #fff100;
+	font-size: 28px;
+	margin-left: 20px;
+}
+.star{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+}
