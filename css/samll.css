@@ -15,6 +15,52 @@ body{
 	font-size: 42px;
 	text-align: center;
 	color: white;
+	position: relative;
+}
+.title img:nth-child(1){
+	position: absolute;
+	left: -80px;
+	top: 81px;
+	animation: 2s img1 linear infinite;
+}
+.title img:nth-child(2){
+	position: absolute;
+	transform: rotate(180deg);
+	right: -80px;
+	top: 81px;
+	animation: 2s img2 linear infinite;
+}
+@-moz-keyframes img1{
+	0%{left: -80px;}
+	100%{left: 1080px;}
+}
+@-ms-keyframes img1{
+	0%{left: -80px;}
+	100%{left: 1080px;}
+}
+@-webkit-keyframes img1{
+	0%{left: -80px;}
+	100%{left: 1080px;}
+}
+@keyframes img1{
+	0%{left: -80px;}
+	100%{left: 1080px;}
+}
+@-moz-keyframes img2{
+	0%{right: -80px;}
+	100%{right: 1080px;}
+}
+@-ms-keyframes img2{
+	0%{right: -80px;}
+	100%{right: 1080px;}
+}
+@-webkit-keyframes img2{
+	0%{right: -80px;}
+	100%{right: 1080px;}
+}
+@keyframes img2{
+	0%{right: -80px;}
+	100%{right: 1080px;}
 }
 .sort{
 	width: 1000px;

@@ -4,14 +4,23 @@ $(function(){
 	
 	var total = 0;
 	var messages = [];
-	setInterval(function(){
-		messages[total] = new message(total,"img/head.png","邱梓佳",'诗尼曼帮帮哒');
-		messages[total].move(10,2);
-		total++;
-	},1000);
+//	setInterval(function(){
+//		messages[total] = new message(total,"img/head.png","邱梓佳",'诗尼曼帮帮哒');
+//		messages[total].move(10,2);
+//		total++;
+//	},1000);
 	 
 	
+	showPop();
+	
 });
+function showPop(){
+	$('#popWindow').show();
+	$('.ytitle').show().addClass('animated bounceInDown');
+	$('.headImg').show().addClass('animated rubberBand');
+	$('.headName').show().addClass('animated fadeInDown');
+	$('.headMoney').show().addClass('animated fadeInUp');
+}
 function message(total,src,name,content){
 	var html = "";
 	html += '<div class="message message'+total+'"><div class="head">';
