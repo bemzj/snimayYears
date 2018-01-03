@@ -299,6 +299,12 @@ body{
 	font-size: 60px;
 	color: #fff100;
 }
+.pcstar{
+	position: absolute;
+	left:60px;
+	top: 0px;
+	animation: 0.8s light linear infinite;
+}
 @-moz-keyframes rotate{
 	from{transform: rotate(0deg);}
 	to{transform: rotate(360deg);}

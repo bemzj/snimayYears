@@ -11,7 +11,7 @@ $(function(){
 //	},1000);
 	 
 	
-	showPop();
+//	showPop();
 	
 });
 function showPop(){
